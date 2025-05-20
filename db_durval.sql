@@ -22,8 +22,9 @@ USE `durval` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `durval`.`Cliente` (
   `idCliente` INT NOT NULL,
-  `nome_Cliente` VARCHAR(45) NULL,
-  `cpf_cliente` VARCHAR(45) NULL,
+  `nome` VARCHAR(45) NULL,
+  `email` VARCHAR(100) NULL,
+  `telefone` VARCHAR(20) NULL,
   PRIMARY KEY (`idCliente`))
 ENGINE = InnoDB;
 
